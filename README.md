@@ -18,9 +18,9 @@ Guess the number between 1 and 100.
 
 ![Favicon](./images/favicon.ico)
 
-![Gameboard](./images/rps-ui.png)
+![Gameboard](./images/gameboard.png)
 
-![Pallette](./images/palete.png)
+![Pallette](./images/pallete.png)
 
 
 # Technology Used
@@ -33,12 +33,8 @@ Guess the number between 1 and 100.
 
 ![CSS3](https://a11ybadges.com/badge?logo=css3)
 
-![Sass](https://a11ybadges.com/badge?logo=sass)
-
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
 
 ![Figma](https://a11ybadges.com/badge?logo=figma)
-
-![Adobe Illustrator](https://a11ybadges.com/badge?logo=adobeillustrator)
 
 ![Netlify](https://a11ybadges.com/badge?logo=netlify)
