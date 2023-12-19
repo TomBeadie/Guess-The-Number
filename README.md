@@ -27,14 +27,18 @@ Guess the number between 1 and 100.
 
 ---
 
-![GitHub](https://a11ybadges.com/badge?logo=github)
-
 ![HTML5](https://a11ybadges.com/badge?logo=html5)
 
 ![CSS3](https://a11ybadges.com/badge?logo=css3)
 
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
 
+![Markdown](https://a11ybadges.com/badge?logo=markdown)
+
 ![Figma](https://a11ybadges.com/badge?logo=figma)
 
 ![Netlify](https://a11ybadges.com/badge?logo=netlify)
+
+![GitHub](https://a11ybadges.com/badge?logo=github)
+
+![Git](https://a11ybadges.com/badge?logo=git)
