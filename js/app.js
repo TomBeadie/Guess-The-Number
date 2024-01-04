@@ -42,6 +42,25 @@ function checkGuess(guess) {
   }
   guessList.push(guess);
   console.log(guessList)
+  render()
+}
+
+function render() {
+    // Using state to get last guess
+    const lastGuess = guessList[guessList.length - 1]
+    // Creating a new div
+    const div = document.createElement('div')
+    // Setting the textContent of the div to hold the guess
+    div.textContent = lastGuess
+
+    // Display the reset button and the prev guesses text
+    // If it is the first guess (subsequent guesses will already exist)
+
+    if (guessList.length === 1) {
+        prevGuessMsg.textContent = 'Previous Guesses:'
+        resetBtn.removeAttribute('hidden')
+    }
+    console.log(div)
 }
 
 function renderError(error) {
