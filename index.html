@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="./js/app.js"></script>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="icon" href="./images/favicon.ico">
+    <link rel="icon" href="./images/favicon.ico" />
     <title>Guess the Number</title>
   </head>
   <body>
     <div class="wrapper">
       <h1 id="message">Guess a number between 1 and 100.</h1>
 
-
-     <form>
-      <input type="text" id="guess-input" placeholder="Guess goes here">
-      <button id="guess-button" type="submit">Guess</button>
-      <button type="reset" id="reset-button" hidden>Reset</button>
-     </form>
-     <h2 id="prev-guesses-msg"></h2>
-     <div id="prev-guesses"></div>
-
+      <form>
+        <input id="guess-input" placeholder="Guess goes here" type="text">
+        <button id="guess-button" type="submit">Guess</button>
+        <button id="reset-button" type="reset">Reset</button>
+      </form>
+      <h2 id="prev-guesses-msg"></h2>
+      <div id="prev-guesses"></div>
     </div>
   </body>
 </html>
