@@ -72,18 +72,29 @@ function render() {
 }
 
 function renderWin(div) {
-    messageEl.className = 'winner'
-    div.className = 'winner'
-    guessesEl.appendChild(div)
+  messageEl.className = "winner";
+  div.className = "winner";
+  guessesEl.appendChild(div);
 
-    if (guessList.length === 1) {
-        messageEl.textContent = `You found the number ${secretNum} in ${guessList.length} guess!`
-    } else {
-        messageEl.textContent = `You found the number ${secretNum} in ${guessList.length} guesses`
-    }
+  if (guessList.length === 1) {
+    messageEl.textContent = `You found the number ${secretNum} in ${guessList.length} guess!`;
+  } else {
+    messageEl.textContent = `You found the number ${secretNum} in ${guessList.length} guesses`;
+  }
 }
 
-function renderGuess(div, lastGuess) {}
+function renderGuess(div, lastGuess) {
+  if (lastGuess < secretNum) {
+    messageEl.className = "low";
+    div.className = "low";
+    messageEl.textContent = `${lastGuess} is too low`;
+  } else {
+    messageEl.className = "high";
+    div.className = "high";
+    messageEl.textContent = `${lastGuess} is too high`;
+  }
+  guessesEl.appendChild(div)
+}
 
 function renderError(error) {
   messageEl.className = "error";
