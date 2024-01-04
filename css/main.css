@@ -24,3 +24,19 @@
     text-transform: uppercase;
   }
   
+
+  .high {
+    color: #ffb04b;
+  }
+
+  .low {
+    color: #00a7f7;
+  }
+
+  .winner {
+    color: #98d174;
+  }
+
+  .error {
+    color: #f13814;
+  }

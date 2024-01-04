@@ -34,12 +34,19 @@ function checkGuess(guess) {
   console.log(guess, " current guess");
   guessInput.value = "";
   if (isNaN(guess) || guess < 1 || guess > 100) {
-    // error
+    renderError('Please enter a number between 1 and 100')
+    return
   } else if (guess === secretNum) {
     // Winner
-    // Set inWinner to true
+    isWinner = true
   }
   guessList.push(guess);
+  console.log(guessList)
+}
+
+function renderError(error) {
+    messageEl.className = 'error'
+    messageEl.textContent = 'error'
 }
 
 function init() {
