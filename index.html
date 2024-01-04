@@ -11,9 +11,16 @@
   <body>
     <div class="wrapper">
       <h1 class="hero-header">Guess a number between 1 and 100.</h1>
-      <div class="guess-box">
-        <input type="number">
-      </div>
+
+
+     <form>
+      <input type="text" id="guess-input" placeholder="Guess goes here">
+      <button id="guess-button" type="submit">Guess</button>
+      <button type="reset" id="reset-button" hidden>Reset</button>
+     </form>
+     <h2 id="prev-guesses-msg"></h2>
+     <div id="prev-guesses"></div>
+
     </div>
   </body>
 </html>
