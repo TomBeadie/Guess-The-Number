@@ -25,3 +25,16 @@ const prevGuessMsg = document.querySelector('#prev-guesses-msg')
 
 
 /*-------- Functions --------*/
+
+init()
+
+function init() {
+    guessesEl.textContent = ''
+    messageEl.textContent = 'Enter a guess between 1 and 100'
+    resetBtn.setAttribute('hidden', true)
+    prevGuessMsg.textContent = ''
+    guessList = []
+    isWinner = false
+    secretNum = Math.floor(Math.random() * 100 + 1)
+    console.log(secretNum)
+}
