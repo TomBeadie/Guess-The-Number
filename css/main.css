@@ -1,32 +1,53 @@
 @font-face {
-    font-family: myFirstFont;
-    src: url(sansation_bold.woff);
-    font-weight: bold;
+    font-family: Archivo;
+    src: url("fonts/Archivo-regular.otf");
   }
   
   body {
     background-color: #1b1b1b;
+    font-family: Archivo;
+    letter-spacing: .2em;
+    position: fixed;
+    text-align: center;
   }
   
-  .wrapper {
+  .gameboard-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 98vw;
+    height: 94vh;
+    width: 94vw;
     border: 1px solid white;
+    padding: 2rem;
   }
   
-  h1 {
-    font-size: 2vw;
-    color: #e3e3e3;
+  h1, h2 {
     text-transform: uppercase;
+    font-size: 1rem;
+    color: #e3e3e3;
+  }
+
+  button, input {
+	border: none;
+    height: 4vh;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    height: 100%;
+}
+
+
+  #prev-guesses-msg {
+    color: #e3e3e3;
   }
   
 
   .high {
-    color: #ffb04b;
+    color: #d1c074;
   }
 
   .low {

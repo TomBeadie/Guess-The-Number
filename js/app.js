@@ -31,7 +31,6 @@ form.addEventListener("submit", function (evt) {
 init();
 
 function checkGuess(guess) {
-  console.log(guess, " current guess");
   guessInput.value = "";
   if (isNaN(guess) || guess < 1 || guess > 100) {
     renderError("Please enter a number between 1 and 100");
@@ -41,7 +40,6 @@ function checkGuess(guess) {
     isWinner = true;
   }
   guessList.push(guess);
-  console.log(guessList);
   render();
 }
 
