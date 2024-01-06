@@ -2,7 +2,7 @@
 
 ---
 
-[Play](tombeadie-guess-the-number.netlify.app)
+[Play](https://tombeadie-guess-the-number.netlify.app)
 
 Guess the number between 1 and 100.
 
